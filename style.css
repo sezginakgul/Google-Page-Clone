@@ -7,7 +7,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     width: 100%;
-    min-width: 630px;
 } 
 
 header {
@@ -92,10 +91,9 @@ a:hover {
 
 #microphone {
     position: relative;
-    height: 20px;
-    width: 13.93px;
     top: 5px;
     right: 74px;
+    height: 20px;
 }
 #searchbar {
     font-size: 16px;
