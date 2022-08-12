@@ -56,6 +56,7 @@ a:hover {
 .header-left {
     float: left;
     opacity: 0.8;
+    line-height: 30px;
 } 
 
 .header-right {  
@@ -76,24 +77,26 @@ a:hover {
 .searchbar {
     position: relative;
     text-align: center;
-    margin-left: 60px;
+    width: 515px;
+    margin: 0 auto;
+    /* margin-left: 60px; */
     padding-top: 20px;
 }
 
-#mag {
+ #mag {
     position: relative;
     height: 30px;
     width: 30px;
     top: 10px;
     right: 500px;
-}
+} 
 
-#microphone {
+ #microphone {
     position: relative;
     top: 5px;
     right: 74px;
     height: 20px;
-}
+} 
 #searchbar {
     font-size: 16px;
     height: 38px;
@@ -107,9 +110,6 @@ a:hover {
 }
 #searchbar:focus {
     outline: 0;
-}
-input{
-    width: 200px;
 }
 
 .btn-container {
@@ -157,28 +157,20 @@ input{
     color: #000080;
 }
 
-
 footer {
-    width: 100%;
-    padding-left: 5px;
     background-color: #f2f2f2;
-    line-height: 40px;
-    font-size: 14px;
+    width: 100%;
     position: fixed;
     bottom: 0;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 40px;
 }
 
 .country {
     color: #5f6368;
     margin-left: 13px;
-    height: 41px;
-    border-bottom:1px solid #e4e4e4 ;
-    width: 100%;
-   
-}
-
-#footer-link {
-    color: #5f6368;
+    border-bottom:1px solid #e4e4e4 ;  
 }
 
 .footer-left {
@@ -187,4 +179,8 @@ footer {
 .footer-right {
     float: right;
     margin-right: 25px;
+}
+
+#footer-link {
+    color: #5f6368;
 }
