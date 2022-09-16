@@ -1,5 +1,4 @@
 # Google-Page-Clone
-# Team Members Website
 
 ## Table of contents
 
@@ -9,7 +8,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  
 
 
 
@@ -45,10 +44,3 @@ Your company has recently started on a project that aims to create a landing pag
 - CSS Margins-Padding
 - CSS Properties for Texts-Font Families-Links
 
-### What I learned
-
-I learned how to use flexboxed, media queries, html elements and many more.
-
-
-
-```
